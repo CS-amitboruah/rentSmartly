@@ -19,6 +19,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.original.js", "sentry.client.config.ts", "sentry.edge.config.ts", "sentry.server.config.ts", "next.config.original.js"],
   "exclude": ["node_modules"]
 }
