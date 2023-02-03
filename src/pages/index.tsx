@@ -1,14 +1,9 @@
 import React from "react";
 
 function Main() {
-  const handleClick = () => {
-    throw Error("an error");
-  };
-
   return (
     <>
-      <div>hello</div>
-      <button onClick={handleClick}>click here</button>
+      <h1>Index Page</h1>
     </>
   );
 }
